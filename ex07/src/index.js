@@ -5,7 +5,7 @@ function myFunction(propName) {
         tails: 1,
         roar: "roar-roar"
     }
-    delete lion.roar;
+    delete lion[propName];
     return lion;
 }
 
