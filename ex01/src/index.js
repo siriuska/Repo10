@@ -6,7 +6,7 @@ var myPet = {
 }
 
 function myFunction(myObj) {
-    return myObj
+    return myObj;
 }
 
 console.log(myFunction(myPet));
