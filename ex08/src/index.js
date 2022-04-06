@@ -15,6 +15,6 @@ function myObject() {
 }
 
 const E = myObject();
-console.log(myObject());
+console.log(myObject(E));
 
 module.exports = myObject;
